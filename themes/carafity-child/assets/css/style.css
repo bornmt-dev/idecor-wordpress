@@ -1,0 +1,723 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('./fonts/ProximaNova-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('./fonts/Proxima Nova Thin.otf') format('truetype');
+    font-weight: 100;
+    /* Thin*/
+}
+
+#page .site-content {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.archive .col-full {
+    max-width: 1700px !important;
+}
+
+.archive .e-con>.e-con-inner {
+    max-width: 1700px !important;
+}
+
+.full-width-banner {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center;
+    margin-top: 46px;
+}
+
+.woocommerce-shop  #masthead .ide-main-header {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.woocommerce-shop .site-content .col-full,
+.tax-product_tag .site-content .col-full {
+    max-width: 1760px !important;
+    padding: 0 30px;
+}
+.woocommerce-account .entry-title {
+    font-size: 46px;
+    color: #fff !important;
+}
+
+.woocommerce-account .site-content {
+    padding: 60px 0;
+}
+
+.woocommerce-account .site-main {
+    padding: 0 20px;
+}
+
+.page-id-7553 .site-content {
+    padding-top: 0;
+}
+.woocommerce-shop form.woocommerce-ordering .select-selected,
+.tax-product_tag form.woocommerce-ordering .select-selected {
+    font-size: 20px !important;
+}
+.breadcrumbs a,
+.breadcrumbs span {
+    text-transform: uppercase;
+}
+
+.woocommerce-account .entry-header {
+    text-align: center;
+    margin-bottom: 60px;
+    background: url(/wp-content/uploads/2024/08/reg-banner.webp);
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.woocommerce-account h2 {
+    color: #6C4C2B;
+    font-family: "Cormorant Garamond";
+    font-size: 64px;
+    font-weight: 700;
+}
+.woocommerce-message{
+    background-color: #6C4C2B!important;
+}
+.woocommerce-account label {
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-weight: 400;
+}
+.woocommerce-account .woocommerce-privacy-policy-text a {
+    font-weight: 400;
+}
+.woocommerce-account label span {
+    color: #121212;
+    font-weight: 300;
+}
+form span.required,
+.tax-product_cat header a {
+    color: #6C4C2B !important;
+}
+.woocommerce-account label span,
+.woocommerce-account input,
+.woocommerce-account p,
+.comment-form input,
+.comment-form textarea,
+.woocommerce-checkout label {
+    font-size: 21px !important;
+    font-weight: 300 !important;
+    font-family: 'Proxima Nova';
+}
+.woocommerce-account p {
+    color: #121212;
+}
+.woocommerce-account form .form-row label{
+    margin-bottom: 20px!important;
+}
+.woocommerce-account input {
+    border-radius: 0 !important;
+    border: 1px solid #6C4C2B !important;
+}
+
+#respond .comment-form-cookies-consent label {
+    color: #000 !important;
+    font-size: 16px !important;
+}
+
+.woocommerce-account button {
+    border-radius: 0;
+    font-size: 26px;
+    font-family: 'Proxima Nova';
+    background: transparent;
+    border: 1px solid #6C4C2B;
+    color: #6C4C2B;
+}
+
+form.woocommerce-form-register,
+form.woocommerce-form-login {
+    max-width: 100% !important;
+}
+
+.woocommerce-account .col-full {
+    max-width: 1700px;
+}
+
+.single div#secondary.widget-area,
+.comment-form .comment-notes,
+.woocommerce-checkout .woocommerce-form-coupon-toggle .woocommerce-info{
+    display: none;
+}
+
+.single-post .entry-meta>div:not(:last-child):after {
+    height: 18px;
+    background-color: #84725880;
+}
+
+.single-post .entry-meta .posted-on:after {
+    display: none;
+}
+
+.single-post .single-content .entry-title {
+    margin-bottom: 25px !important;
+    font-size: 64px;
+    font-family: "Cormorant Garamond";
+    font-weight: 600;
+}
+
+.single-post .breadcrumb-wrap,
+.comment-list .reply,
+.single-post .post-author {
+    display: none;
+}
+
+.single-post .content-area,
+.single-portfolio .content-area {
+    width: 100% !important;
+}
+
+.single-post .entry-content p {
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    color: #000;
+}
+
+.single-post .tags-links {
+    width: 100%;
+}
+
+.single-post .tags-links a {
+    font-family: 'Proxima Nova';
+    max-width: 116px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #6C4C2B;
+    font-size: 16px;
+    color: #6C4C2B;
+}
+
+.nav-content .title {
+    color: #111;
+    font-family: "Cormorant Garamond" !important;
+    font-size: 32px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 40px !important;
+    letter-spacing: 0.8px;
+}
+
+.nav-content .reader-text {
+    font-family: Inter;
+    font-size: 26px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    color: #847258 !important;
+    width: 100%;
+    text-transform: capitalize !important;
+}
+
+.single-post .single-content>* {
+    max-width: 1440px !important;
+}
+
+.single-post #comments .comments-title,
+.single-post .comment-reply-title {
+    font-size: 48px !important;
+    font-family: 'Cormorant Garamond' !important;
+    letter-spacing: 0.8px;
+    font-weight: 600 !important;
+}
+
+.single-post .nav-previous .nav-content .reader-text:before,
+.single-post .nav-next .nav-content .reader-text:before {
+    font-size: 16px;
+}
+
+.single-post #comments .comment-list .avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.comment-form input,
+.comment-form textarea,
+.comment-form button,
+.woocommerce-checkout .wc-block-components-text-input input[type=text],
+.woocommerce-checkout button,
+.woocommerce-checkout select {
+    border-radius: 0 !important;
+    border: 1px solid #6C4C2B !important;
+    color: #000;
+}
+
+.comment-form button,
+.woocommerce-checkout button {
+    background: transparent !important;
+    color: #6C4C2B !important;
+    font-size: 26px;
+}
+
+.comment-list ol.children {
+    margin-left: 0 !important;
+}
+
+#comments .comment-list .comment-content {
+    border: 0 !important;
+    padding: 8px 0 20px 0 !important;
+}
+
+#comments .comment-list .comment-content:before {
+    display: none;
+}
+
+.comment-text p,
+#comments .comment-list .comment-meta cite {
+    font-family: "Proxima Nova";
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.8px;
+    color: #000 !important;
+}
+
+#comments .comment-list .comment-meta cite {
+    font-weight: 400 !important;
+    margin-bottom: 0 !important;
+}
+
+#comments .comment-list .comment-meta {
+    flex-direction: row !important;
+    column-gap: 15px;
+    align-items: center;
+}
+
+#comments .comment-list .comment-body {
+    margin-bottom: 0;
+}
+
+#comments .comment-list .comment-meta a.comment-date {
+    font-size: 16px !important;
+    color: #00000099 !important;
+}
+
+.single-post #comments .comment-list .comment-body {
+    margin-bottom: 0;
+}
+
+.single-post #comments .comment-list-wrap {
+    margin-bottom: 30px;
+}
+
+.single-post #respond #reply-title {
+    margin-bottom: 73px;
+}
+.woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-top,
+.woosw-item--actions a{
+    background-color: #6C4C2B; 
+}
+
+.single-post .comment-form-author input::placeholder {
+    color: #111;
+}
+
+.single-post #comments .comment-form .comment-form-comment {
+    margin-bottom: 15px;
+}
+
+.single-post #commentform button {
+    width: 400px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 20px;
+}
+
+.single-post #commentform button i {
+    display: none;
+}
+
+#comments .comment-form .comment-form-author input,
+#comments .comment-form .comment-form-email input,
+#comments .comment-form .comment-form-url input,
+.comment-form textarea {
+    padding: 18px 20px;
+}
+
+.woocommerce-checkout .wc-block-components-product-name,
+.woocommerce-checkout .wc-block-formatted-money-amount,
+.woocommerce-checkout .wc-block-components-totals-item__label {
+    font-family: "Proxima Nova";
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+}
+
+.woocommerce-checkout .wp-block-woocommerce-checkout-order-summary-block .wc-block-components-totals-footer-item:last-child {
+    text-transform: uppercase;
+}
+
+.woocommerce-info {
+    background-color: #6C4C2B !important;
+}
+
+.woocommerce-form-coupon-toggle .woocommerce-info {
+    background-color: transparent !important;
+}
+
+.woocommerce-checkout .wc-block-components-product-metadata__description p,
+.woocommerce-checkout .wp-block-woocommerce-checkout-terms-block {
+    font-size: 18px !important;
+}
+
+.banner-content {
+    text-align: center;
+    padding-top: 4em;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.single-post .banner,
+.single-portfolio .banner {
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 82px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+nav.post-navigation .nav-previous a,
+nav.post-navigation .nav-next a {
+    max-width: 100% !important;
+}
+
+.single-post .single-content {
+    padding: 100px 0 !important;
+}
+
+.single-portfolio .single-content {
+    padding: 100px 15px !important;
+}
+
+.single-post nav.breadcrumbs,
+.single-post nav.breadcrumbs a,
+.single-portfolio .breadcrumbs a,
+.single-portfolio .breadcrumbs span,
+.banner-content .breadcrumbs {
+    font-size: 21px !important;
+    color: #fff !important;
+}
+
+.single-post .entry-meta a,
+.single-post .entry-meta {
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #847258;
+
+}
+
+.single-post .hentry .entry-taxonomy {
+    margin-bottom: 100px !important;
+}
+
+.single-post nav.post-navigation {
+    border-top: 1.5px solid #6C4C2B99;
+    border-bottom: 1.5px solid #6C4C2B99;
+}
+
+.post-type-archive-product .elementor-element-7fdd451 {
+    margin-top: 100px;
+}
+
+.woocommerce-shop .gridlist-toggle a:nth-child(2) {
+    border: 0 !important;
+}
+
+.woocommerce-account .entry-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.woocommerce-account .entry-title {
+    margin-top: 7rem;
+    font-size: 82px;
+    font-weight: 700;
+    font-family: "Cormorant Garamond";
+}
+
+.woocommerce-account .breadcrumb,
+.woocommerce-account .breadcrumb a {
+    font-family: "Proxima Nova";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.woocommerce-account .woocommerce-button:hover {
+    color: var(--white);
+}
+
+.single-post .post-thumbnail img {
+    width: 100%;
+    height: 717px;
+}
+
+.single-post nav.post-navigation .nav-previous .nav-content,
+.single-post nav.post-navigation .nav-next .nav-content {
+    align-content: center;
+}
+
+.single-post nav.post-navigation .nav-previous img,
+.single-post nav.post-navigation .nav-next img {
+    align-self: center;
+}
+
+.single-post .comment-form-cookies-consent input[type=checkbox] {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+
+}
+
+.woocommerce-shop .carafity-products ul.products li.product
+{
+    width: 100% !important;
+}
+
+.search-results .woocommerce-products-header {
+    margin-top: 80px !important;
+}
+
+@media(max-width:1200px){
+    .single-post .banner-content h1{
+        font-size: 64px;
+    }
+    .single-post .content-area{
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 880px) {
+    .single-post #comments .comments-title {
+        margin-bottom: 0;
+    }
+
+    .single-post #comments .comment-list .comment-meta {
+        display: grid;
+    }
+
+    .single-post #comments .comment-list .comment-content {
+        margin-top: 25px;
+    }
+
+    .single-post .post-thumbnail img {
+        width: 100%;
+        height: 330px;
+    }
+}
+
+@media(max-width:767px) {
+    .single-post .form-submit button {
+        width: 100% !important;
+        padding: 14px 30px !important;
+        letter-spacing: 0 !important;
+    }
+
+    .single-post .single-content {
+        padding: 50px 0 !important;
+    }
+    .woocommerce-checkout button{
+        letter-spacing: normal;
+    }
+    .single-post .form-submit .carafity-icon-long-arrow-right:before {
+        display: none;
+    }
+    .woocommerce-account form .form-row label {
+        margin-bottom: 10px !important;
+    }
+    .single-product .related.products {
+        margin-bottom: 0;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .woocommerce-account .woocommerce-form-login__rememberme span {
+        font-size: 16px !important;
+    }
+    p.woocommerce-LostPassword.lost_password a {
+        font-size: 16px !important;
+        font-weight: 300 !important;
+        text-decoration-style: unset!important;
+    }
+    .single-product .custom-cart-shopbtn {
+        margin-bottom: 50px !important;
+    }
+
+    .woocommerce-account .entry-title {
+        font-size: 44px;
+        margin-top: 4rem !important;
+    }
+
+    .woocommerce-account label {
+        font-size: 22px;
+    }
+
+    .page-id-7553 .col2-set#customer_login .col-2 {
+        border-left: 0 !important;
+    }
+
+    .single-product .product-action span.price {
+        font-size: 20px !important;
+    }
+
+    .page-id-187 textarea {
+        height: 277px;
+    }
+
+    .woocommerce-account .breadcrumb,
+    .woocommerce-account .breadcrumb a,
+    .woocommerce-account p {
+        font-size: 18px !important;
+    }
+
+    .single-post .single-content .entry-title {
+        font-size: 36px;
+    }
+
+    .banner h1 {
+        font-size: 44px!important;
+    }
+
+    .woocommerce-account p a {
+        font-weight: 400 !important;
+    }
+
+    .single-post nav.breadcrumbs,
+    .single-post nav.breadcrumbs a {
+        font-size: 18px !important;
+    }
+
+    .single-post .entry-content p {
+        font-size: 18px;
+    }
+
+    .nav-content .title {
+        font-size: 20px !important;
+    }
+    .single-post form input {
+        font-size: 18px !important;
+    }
+    .single-post form textarea{
+        height: 150px;
+        font-size: 18px !important;
+    }
+    .single-post #comments .comments-title,
+    .woocommerce-account h2,
+    .single-post .comment-reply-title {
+        font-size: 38px!important;
+    }
+    .single-post #respond #reply-title {
+        margin-bottom: 25px;
+    }
+    .single-post .hentry .entry-taxonomy {
+        margin-bottom: 50px !important;
+    }
+    .comment-text p,
+    #comments .comment-list .comment-meta cite {
+        font-size: 18px !important;
+    }
+
+    #comments .comment-list .comment-content {
+        padding: 0 !important;
+    }
+
+    .single-post .content-area {
+        padding: 0 15px;
+    }
+
+    .nav-content .reader-text {
+        font-size: 15px !important;
+    }
+
+    .woocommerce-shop .select-selected {
+        font-size: 16px !important;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .woocommerce-shop .carafity-products,
+    .tax-product_tag .carafity-products,
+    .archive.tax-product_cat .carafity-products
+    {
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px !important;
+        justify-content: center;
+    }
+
+    .woocommerce-shop .carafity-products  li.product,
+     .tax-product_tag .carafity-products   li.product,
+    .archive.tax-product_cat .carafity-products li.product
+    {
+        width: calc(50% - 10px);
+        padding: 20px 5px;
+    }
+
+    .archive.tax-product_cat .breadcrumb-wrap  .e-con-inner {
+        padding-top: 230px;
+    }
+}
+
+
+
+ 
+
+@media(max-width:375px) { 
+    .woocommerce-shop .carafity-products li {
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-3645 .elementor-element.elementor-element-0f37521 { 
+        width: 100% !important;
+    }
+} 
+
+@media (max-width: 767px) {
+    .elementor-3645 .elementor-element.elementor-element-f8328ec {
+        width: auto !important;
+    }
+}
