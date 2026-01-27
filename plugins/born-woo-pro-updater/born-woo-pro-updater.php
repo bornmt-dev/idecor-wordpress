@@ -12,15 +12,6 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
-// Include Composer's autoloader to use the League CSV library if it exists
-if (file_exists(__DIR__ . '/vendor/autoload.php')) {
-    require_once __DIR__ . '/vendor/autoload.php';
-} else {}
-
-include_once plugin_dir_path(__FILE__) . 'born-woo-initialization.php';
-include_once plugin_dir_path(__FILE__) . 'born-woo-download-resources.php';
-include_once plugin_dir_path(__FILE__) . 'born-woo-process-articulo.php';
-include_once plugin_dir_path(__FILE__) . 'born-woo-process-stocks.php';
-include_once plugin_dir_path(__FILE__) . 'born-woo-process-images.php';
-include_once plugin_dir_path(__FILE__) . 'born-woo-resync.php';
-include_once plugin_dir_path(__FILE__) . 'born-woo-cron-job.php';
+include_once plugin_dir_path(__FILE__) . 'product-filter.php';
+include_once plugin_dir_path(__FILE__) . 'product-image.php';
+include_once plugin_dir_path(__FILE__) . 'download-csv.php';
