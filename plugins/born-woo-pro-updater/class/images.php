@@ -55,13 +55,13 @@ class iDecorImages {
 
         $conn_id = ftp_connect($ip, $port, 30);
         if (!$conn_id) { 
-            error_log("❌ FTP connection failed");
+            error_log(" FTP connection failed");
             return []; 
         }
 
         if (!ftp_login($conn_id, $username, $password)) { 
             ftp_close($conn_id); 
-            error_log("❌ FTP login failed");
+            error_log(" FTP login failed");
             return []; 
         }
 
@@ -97,11 +97,11 @@ class iDecorImages {
                         if (ftp_get($conn_id, $local_path, $remote_path, FTP_BINARY)) {
                             $downloadedBases[] = $baseName;
                             $allDownloaded[] = $local_path;
-                            error_log("✅ Downloaded: $newFilename (Woo SKU: $productCode)\n");
+                            error_log(" Downloaded: $newFilename (Woo SKU: $productCode)\n");
                             $found = true;
                             break; // stop checking other extensions
                         } else {
-                            error_log("❌ Failed to download: $filename (Woo SKU: $productCode)\n");
+                            error_log(" Failed to download: $filename (Woo SKU: $productCode)\n");
                             $found = true;
                             break;
                         }
@@ -109,7 +109,7 @@ class iDecorImages {
                 }
 
                 if (!$found) {
-                    error_log("⚠️ File does not exist on FTP: $baseName (Woo SKU: $productCode)\n");
+                    error_log(" File does not exist on FTP: $baseName (Woo SKU: $productCode)\n");
                 }
             }
         }
@@ -131,9 +131,9 @@ class iDecorImages {
                     // Compress to 75% quality (adjustable)
                     imagejpeg($img, $filePath, 75);
                     imagedestroy($img);
-                    error_log("✅ Optimized: " . basename($filePath) . "\n");
+                    error_log(" Optimized: " . basename($filePath) . "\n");
                 } else {
-                   error_log("❌ Failed to open: " . basename($filePath) . "\n");
+                   error_log(" Failed to open: " . basename($filePath) . "\n");
                 }
             }
         }
@@ -152,7 +152,7 @@ class iDecorImages {
             // Get the Woo product by SKU
             $product_id = wc_get_product_id_by_sku($productCode);
             if (!$product_id) {
-                error_log("❌ Product not found for SKU: $productCode\n");
+                error_log(" Product not found for SKU: $productCode\n");
                 continue;
             }
 
@@ -169,7 +169,7 @@ class iDecorImages {
             }
 
             if (empty($imageFiles)) {
-                error_log("⚠️ No images found locally for SKU: $productCode\n");
+                error_log(" No images found locally for SKU: $productCode\n");
                 continue;
             }
 
@@ -178,7 +178,7 @@ class iDecorImages {
             $featured_id = $this->uploadToMediaLibrary($featured, $product_id);
             if ($featured_id) {
                 update_post_meta($product_id, '_thumbnail_id', $featured_id);
-                error_log("✅ Featured image set for SKU: $productCode\n");
+                error_log(" Featured image set for SKU: $productCode\n");
             }
 
             // Attach remaining images as product gallery
@@ -190,7 +190,7 @@ class iDecorImages {
 
             if (!empty($gallery_ids)) {
                 update_post_meta($product_id, '_product_image_gallery', implode(',', $gallery_ids));
-                error_log("✅ Gallery images set for SKU: $productCode\n");
+                error_log(" Gallery images set for SKU: $productCode\n");
             }
 
             // Optional: mark image status to avoid re-downloading
@@ -217,7 +217,7 @@ class iDecorImages {
         $attachment_id = media_handle_sideload($fileArray, $post_id);
 
         if (is_wp_error($attachment_id)) {
-            error_log("❌ Failed to upload " . basename($filePath) . "\n");
+            error_log(" Failed to upload " . basename($filePath) . "\n");
             return false;
         }
 
